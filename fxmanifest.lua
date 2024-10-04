@@ -8,7 +8,8 @@ version '1.0.0'
 shared_script '@ox_lib/init.lua'
 
 client_scripts {
-    'client.lua'
+    'client.lua',
+    '@PolyZone/client.lua'
 }
 
 lua54 'yes'
